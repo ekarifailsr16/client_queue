@@ -1,0 +1,10 @@
+<.header>
+  <%= @client.name %>
+  <:subtitle>Details of the client you just registered.</:subtitle>
+</.header>
+
+<p>Name: <%= @client.name %></p>
+<p>Email: <%= @client.email %></p>
+<p>Phone: <%= @client.phone %></p>
+
+<.button navigate={~p"/"}>Done</.button>
